@@ -71,11 +71,15 @@ a:active {
   text-decoration: none;
   padding: 20px;
   border-radius: 20px;
-  border-bottom: 2px solid #343148; /* width of the border, type, color */
+  border-bottom: 2px solid #343148;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
-button:hover,
-button:focus {
-  cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
-  opacity: 0.8; /* Reduces the opactiy of the button to 80% */
+
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  /* let's the mouse appear as hand when hovering over the button */
+  opacity: 0.8;
+  /* Reduces the opactiy of the button to 80% */
 }
