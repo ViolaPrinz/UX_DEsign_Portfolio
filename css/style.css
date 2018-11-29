@@ -7,40 +7,62 @@ Dark-contrast-color: 343148;
 Text Color: #000000;
 Second Text-color: #ffffff;
 */
-
-
-
 body {
   background-color: #f0eff4;
-  font-family: "Open Sans",sans-serif;
-  font-size: 16px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
   line-height: 1.6;
 }
+
 h1 {
-  font-family: "Hind",sans-serif;
-  font-size: 30px;
+  font-family: "Hind", sans-serif;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Hind", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Hind", sans-serif;
+  font-size: 1.7em;
+  font-weight: 700;
 }
 
 a {
   color: #2bbdb6;
-  font-size: 20px;
 }
+
 a:visited {
   /* visited link */
-  color: #6b5b95;
+  color: #2bbdb6;
 }
 
-
-a:hover {
-  text-decoration: none; /* No underlining when hovering over a link */
+a:hover,
+a:focus {
+  text-decoration: none;
+  /* No underlining when hovering over a link */
 }
+
 a:active {
   /* selected link */
   color: #343148;
 }
-button {
+
+.social-icon {
+  width: 1.9em;
+}
+
+.button {
+  display: inline-block;
   border: none;
-  font-family: inherit; /* takes the font from the outer container */
+  font-family: inherit;
+  /* takes the font from the outer container */
   font-size: 20px;
   font-weight: bold;
   /* style button */
