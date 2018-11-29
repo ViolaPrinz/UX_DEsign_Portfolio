@@ -79,7 +79,6 @@ a:active {
 .button:hover,
 .button:focus {
   cursor: pointer;
-  /* let's the mouse appear as hand when hovering over the button */
   opacity: 0.8;
   /* Reduces the opactiy of the button to 80% */
 }
