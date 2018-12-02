@@ -2,37 +2,58 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <meta charset="utf-8">
+  <title>UX Design Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Hind:700|Open+Sans:400,600" rel="stylesheet">
-  <meta charset="utf-8">
-  <title>UX Design Portfolio</title>
 </head>
 
 <body>
-  <header>
-    <img src="img/logo.jpg" alt="logo">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <h1>Hi, my name is Viola. <span>Welcome to my portfolio site!</span></h1>
-  <div>
-    <div>
-      <img src="img/Inktank.jpg" alt="InkTank #Tattoo inspiration app">
-      <h2>Ink Tank #Tattoo Inspiration App</h2>
-    </div>
+  <div class="wrapper">
+    <header>
+      <img src="img/logo.jpg" alt="logo" class="logo" />
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="hero">
+        <h1>
+          "Hi, my name is Viola.
+          <span>Welcome to my portfolio Site!</span>
+        </h1>
+        <p>
+          During the last month I created two UX design projects for the UX Designer course from Careerfoundry.
+          With the support from industry leading Mentors and Tutors, I could learn many different UX Design methods.
+          I did the whole user centered design process, from research, to design, to testing and then I iterated again to optimize the product.
+        </p>
+      </div>
+      <div id="work">
+        <div class="columns-container">
+          <div class="column-2">
+            <img src="img/Inktank.jpg" alt="InkTank #Tattoo inspiration app">
+            <h2>Ink Tank #Tattoo Inspiration App</h2>
+          </div>
 
-    <div>
-      <img src="img/FlyingWords.jpg" alt="FlyingWords #Vocabualary learning app">
-      <h2>Flying words #Vocabualary learning app</h2>
-    </div>
-
-
+          <div class="column-2">
+            <img src="img/FlyingWords.jpg" alt="FlyingWords #Vocabualary learning app">
+            <h2>Flying words #Vocabualary learning app</h2>
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
 </body>
 
