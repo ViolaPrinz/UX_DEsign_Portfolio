@@ -7,6 +7,10 @@ Dark-contrast-color: 343148;
 Text Color: #000000;
 Second Text-color: #ffffff;
 */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f0eff4;
   color: #000000;
