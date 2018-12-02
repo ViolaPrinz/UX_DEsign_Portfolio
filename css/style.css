@@ -90,7 +90,186 @@ a:active {
 
 .button:hover,
 .button:focus {
-  cursor: pointer;
   opacity: 0.8;
   /* Reduces the opactiy of the button to 80% */
+}
+
+/*Layout Styling */
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20;
+}
+
+.columns-container {
+  font-size: 0px;
+}
+
+.column-2 {
+  width: 49%;
+  display: inline-block;
+  margin-right: 1%;
+  font-size: 21px;
+  text-align: center;
+}
+
+column-2:last-child {
+  margin-right: 0;
+}
+
+nav {
+  float: right;
+  display: inline-block;
+}
+
+.navigation {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation>li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/*Mobilephone/Small screen mediaqueri */
+@media all and (max-width: 500px) {
+  body {
+    font-size: 16px;
+  }
+
+  .logo {
+    /* Make logo smaller by changing it's height */
+    height: 50px;
+  }
+
+  .viola {
+    height: 100px;
+    margin: 10px;
+  }
+
+  .navigation {
+    margin: 10px;
+  }
+
+  h1 {
+    /* Reduce font-size of heading */
+    font-size: 1.5em;
+    text-align: left;
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 1.1em;
+    margin: 10px;
+  }
+
+  h3 {
+    margin: 10px;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  .column-2 {
+    /* Modify 4-column to 2-columns */
+    width: 100%;
+    margin-right: 1%;
+    display: block;
+    margin-right: 0;
+  }
+
+  .column-2:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .button {
+    margin: 10px;
+    font-size: 16px;
+  }
+}
+
+/*Tablet / Medium device media querie */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  .navigation {
+    margin: 10px;
+  }
+
+  .viola {
+    margin: 10px;
+  }
+
+  h1 {
+    /* Reduce font-size of heading */
+    font-size: 1.5em;
+    text-align: left;
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 1.1em;
+    margin: 10px;
+  }
+
+  h3 {
+    margin: 10px;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  .column-2 {
+    /* Modify 4-column to 2-columns */
+    width: 100%;
+    margin-right: 1%;
+    display: block;
+    margin-right: 0;
+  }
+
+  .column-2:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .button {
+    margin: 10px;
+    font-size: 18px;
+  }
+}
+
+/*biggermiddle size */
+@media only screen and (max-width: 910px) and (min-width: 768px) {
+  .navigation {
+    margin: 10px;
+  }
+
+  .viola {
+    margin: 10px;
+  }
+
+  h1 {
+    margin: 10px;
+  }
+
+  h2 {
+    margin: 10px;
+  }
+
+  h3 {
+    margin: 10px;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  .button {
+    margin: 10px;
+  }
 }
