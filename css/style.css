@@ -19,6 +19,17 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
+img {
+  width: 100%;
+}
+.logo {
+  width: 150px;
+  padding-top: 5px;
+}
+.viola {
+  width: 200px;
+
+}
 
 h1 {
   font-family: "Hind", sans-serif;
