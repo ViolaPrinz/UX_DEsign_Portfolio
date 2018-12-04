@@ -129,7 +129,23 @@ a:active {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20;
+  padding: 0 20px;
+}
+
+.containskillstools {
+  font-size: 0px;
+}
+
+.columnskill {
+  width: 49%;
+  display: inline-block;
+  margin-right: 1%;
+  font-size: 21px;
+  text-align: center;
+}
+
+.columnskill:last-child {
+  margin-right: 0;
 }
 
 .columns-container {
