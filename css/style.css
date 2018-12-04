@@ -188,36 +188,34 @@ nav {
   .logo {
     /* Make logo smaller by changing it's height */
     height: 50px;
+    width: auto;
+
   }
 
   .viola {
     height: 100px;
-    margin: 10px;
-  }
+    width: auto;
+    }
 
-  .navigation {
-    margin: 10px;
-  }
 
-  h1 {
+
+
+#hero h1 {
     /* Reduce font-size of heading */
     font-size: 1.5em;
-    text-align: left;
-    margin: 10px;
-  }
+    text-align: center;
+}
 
   h2 {
     font-size: 1.1em;
-    margin: 10px;
-  }
 
-  h3 {
-    margin: 10px;
   }
 
   p {
-    margin: 10px;
+    text-align: left;
   }
+
+
 
   .column-2 {
     /* Modify 4-column to 2-columns */
