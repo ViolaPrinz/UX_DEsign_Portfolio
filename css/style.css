@@ -49,6 +49,22 @@ h3 {
   font-size: 1.3em;
   font-weight: 700;
 }
+#hero {
+  text-align: center;
+}
+#contact {
+  text-align: center;
+}
+.inktank {
+  height: 618px;
+  width: auto;
+}
+
+.flyingwords {
+  height: 618px;
+  width: auto;
+}
+
 
 a {
   color: #2bbdb6;
