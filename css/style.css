@@ -19,16 +19,18 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
+
 img {
   width: 100%;
 }
+
 .logo {
   width: 150px;
   padding-top: 5px;
 }
+
 .viola {
   width: 200px;
-
 }
 
 h1 {
@@ -37,9 +39,11 @@ h1 {
   font-weight: 700;
   text-align: center;
 }
+
 h1 span {
   display: block;
-  font-family:"Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
+  ;
   font-size: 0.9em;
   font-weight: 400;
 }
@@ -55,12 +59,15 @@ h3 {
   font-size: 1.3em;
   font-weight: 700;
 }
+
 #hero {
   text-align: center;
 }
+
 #contact {
   text-align: center;
 }
+
 .inktank {
   height: 618px;
   width: auto;
@@ -70,7 +77,6 @@ h3 {
   height: 618px;
   width: auto;
 }
-
 
 a {
   color: #6b5b95;
@@ -97,6 +103,7 @@ a:active {
   color: #343148;
   text-decoration: none;
 }
+
 #current a {
   color: #b22ee0;
 }
@@ -104,15 +111,16 @@ a:active {
 .social-icon {
   width: 1.9em;
   /*socialiconeffect*/
-border-radius: 50%;
-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
-    transition: .3s;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+  transition: .3s;
 }
+
 .social-icon:hover {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.28);
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .viola {
@@ -124,13 +132,12 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .intro {
   text-align: left;
 }
-.button_holder
 
-.button {
-
+.button_holder .button {
   display: inline-block;
   border: none;
   font-family: inherit;
@@ -145,34 +152,26 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
   border-radius: 20px;
   border-bottom: 2px solid #343148;
   /* width of the border, type, color */
-
   transition: 0.2s opacity;
-  /*tryeffect*/
-
-
 }
 
 .button:hover,
 .button:focus {
   opacity: 0.8;
-  
-
-
   /* Reduces the opactiy of the button to 80% */
   /*circlesaround*/
-
-        /*endcirclesaround*/
+  /*endcirclesaround*/
 }
 
 /*Layout Styling */
 header {
-
- /*background-image: linear-gradient(#343148, #6b5b95, #2bbdb6);*/
- background-color: #343148;
- -webkit-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
+  /*background-image: linear-gradient(#343148, #6b5b95, #2bbdb6);*/
+  background-color: #343148;
+  -webkit-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.75);
 }
+
 a.navhead {
   color: white;
 }
@@ -183,20 +182,23 @@ a.navhead {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 .center {
   text-align: center;
 }
+
 .top-padding {
   padding-top: 30px;
 }
+
 .bottom-padding {
   padding-bottom: 30px;
 }
 
-
 .columns-container {
   font-size: 0px;
 }
+
 .columns-container:after {
   content: '';
   display: table;
@@ -245,107 +247,117 @@ nav {
   padding: 0;
 }
 
-.navigation> li {
+.navigation>li {
   display: inline-block;
   margin-left: 30px;
-
-
-}
- /*Css Navigation Animation */
-
-
-li.circleBehind a:before, li.circleBehind a:after
-{
-    position: absolute;
-    top: 22px;
-    left: 50%;
-    width: 60px;
-    height: 60px;
-    border: 3px solid #2bbdb6;
-    transform: translateX(-50%) translateY(-50%) scale(0.8);
-    border-radius: 50%;
-    background: transparent;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-    z-index: -1;
 }
 
-li.circleBehind a:after
-{
-    border-width: 2px;
-    transition: all 0.4s;
+/*Css Navigation Animation */
+li.circleBehind a:before, li.circleBehind a:after {
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #2bbdb6;
+  transform: translateX(-50%) translateY(-50%) scale(0.8);
+  border-radius: 50%;
+  background: transparent;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+  z-index: -1;
 }
 
-li.circleBehind a:hover:before
-{
-    opacity: 0.8;
-    transform: translateX(-50%) translateY(-50%) scale(1);
+li.circleBehind a:after {
+  border-width: 2px;
+  transition: all 0.4s;
 }
 
-li.circleBehind a:hover:after
-{
-    opacity: 0.8;
-    transform: translateX(-50%) translateY(-50%) scale(1.3);
+li.circleBehind a:hover:before {
+  opacity: 0.8;
+  transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+li.circleBehind a:hover:after {
+  opacity: 0.8;
+  transform: translateX(-50%) translateY(-50%) scale(1.3);
 }
 
 /*Css Animation Navigation for contact dates */
-
-div.lines a:before, div.lines a:after
-{
-    position: absolute;
-    opacity: 0;
-    width: 0%;
-    height: 2px;
-    content: '';
-    background: #2bbdb6;
-    transition: all 0.3s;
+div.lines a:before, div.lines a:after {
+  position: absolute;
+  opacity: 0;
+  width: 0%;
+  height: 2px;
+  content: '';
+  background: #2bbdb6;
+  transition: all 0.3s;
 }
 
-div.lines a:before
-{
-    left: 0px;
-    top: 0px;
+div.lines a:before {
+  left: 0px;
+  top: 0px;
 }
 
-div.lines a:after
-{
-    right: 0px;
-    bottom: 0px;
+div.lines a:after {
+  right: 0px;
+  bottom: 0px;
 }
 
-div.lines a:hover:before, div.lines a:hover:after
-{
-    opacity: 1;
-    width: 100%;
+div.lines a:hover:before, div.lines a:hover:after {
+  opacity: 1;
+  width: 100%;
 }
+
 /*Animation CSS*/
-
 @keyframes color-change {
-    0% {fill: #edc655;}
-    50% {fill: #fcffad;}
-    100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
+
 .sun {
   animation: 4s color-change infinite alternate linear;
 }
+
 @keyframes cloud-move {
-    from {transform: translate(0,50px);}
-    to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
+
 .cloud-front {
   animation: 30s cloud-move infinite alternate linear;
 }
+
 @keyframes cloud-move-reverse {
-    from {transform: translate(446px,48px);}
-    to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
+
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 /*Animation Ends */
-
 /*Mobilephone/Small screen mediaqueri */
 @media all and (max-width: 500px) {
   body {
@@ -356,33 +368,26 @@ div.lines a:hover:before, div.lines a:hover:after
     /* Make logo smaller by changing it's height */
     height: 50px;
     width: auto;
-
   }
 
   .viola {
     height: 100px;
     width: auto;
-    }
+  }
 
-
-
-
-#hero h1 {
+  #hero h1 {
     /* Reduce font-size of heading */
     font-size: 1.5em;
     text-align: center;
-}
+  }
 
   h2 {
     font-size: 1.1em;
-
   }
 
   p {
     text-align: left;
   }
-
-
 
   .column-2 {
     /* Modify 4-column to 2-columns */
@@ -390,7 +395,6 @@ div.lines a:hover:before, div.lines a:hover:after
     display: block;
     margin-right: 0;
   }
-
 
   .button {
     margin: 10px;
@@ -408,27 +412,26 @@ div.lines a:hover:before, div.lines a:hover:after
     /* Reduce font-size of heading */
     font-size: 1.5em;
     text-align: center;
-    }
+  }
 
   h2 {
     font-size: 1.1em;
-}
+  }
 
-.column-2 {
+  .column-2 {
     /* Modify 4-column to 2-columns */
     width: 100%;
     display: block;
     margin-right: 0;
   }
 
-
-
-/*biggermiddle size */
-@media only screen and (max-width: 950px)  {
-  .navigation {
-    margin: 10px;
+  /*biggermiddle size */
+  @media only screen and (max-width: 950px) {
+    .navigation {
+      margin: 10px;
+    }
   }
-}
+
   .viola {
     margin: 10px;
   }
