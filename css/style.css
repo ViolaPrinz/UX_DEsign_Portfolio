@@ -363,21 +363,26 @@ div.lines a:hover:before, div.lines a:hover:after {
 }
 
 /*Animation Ends */
+.berlin-illustration {
+  max-width: 600px;
+}
+.animation_holder {
+  text-align: center;
+  padding-top: 30px;
+}
 /*Mobilephone/Small screen mediaqueri */
 @media all and (max-width: 500px) {
   body {
     font-size: 16px;
   }
 
-  .logo {
-    /* Make logo smaller by changing it's height */
-    height: 50px;
-    width: auto;
-  }
+
+
 
   .viola {
     height: 100px;
     width: auto;
+
   }
 
   #hero h1 {
@@ -422,12 +427,31 @@ div.lines a:hover:before, div.lines a:hover:after {
   h2 {
     font-size: 1.1em;
   }
+  .logo {
+    width: 75;
+  }
+  header {
+
+    text-align: center;
+  }
+  nav {
+
+    float: unset;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+.navigation > li {
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
   .column-2 {
     /* Modify 4-column to 2-columns */
     width: 100%;
     display: block;
     margin-right: 0;
+    margin-bottom: 30px;
   }
 
   /*biggermiddle size */
