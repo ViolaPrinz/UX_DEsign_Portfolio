@@ -244,6 +244,7 @@ a.navhead {
 nav {
   float: right;
   display: inline-block;
+  margin-top: 40px;
 }
 
 .navigation {
