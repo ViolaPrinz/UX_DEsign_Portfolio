@@ -25,8 +25,9 @@ img {
 }
 
 .logo {
-  width: 150px;
-  padding-top: 5px;
+  width: 120px;
+  padding-top: 10px;
+
 }
 
 .viola {
@@ -43,7 +44,7 @@ h1 {
 h1 span {
   display: block;
   font-family: "Open Sans", sans-serif;
-  ;
+
   font-size: 0.9em;
   font-weight: 400;
 }
