@@ -173,6 +173,9 @@ header {
   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
+main {
+  padding: 50px 0 0;
+}
 a.navhead {
   color: white;
 }
