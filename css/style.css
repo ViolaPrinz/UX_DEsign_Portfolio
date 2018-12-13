@@ -431,6 +431,9 @@ div.lines a:hover:before, div.lines a:hover:after {
   .logo {
     width: 75;
   }
+  .violaimage {
+    text-align: center;
+  }
   header {
 
     text-align: center;
