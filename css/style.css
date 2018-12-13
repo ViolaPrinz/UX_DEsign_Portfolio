@@ -460,7 +460,8 @@ div.lines a:hover:before, div.lines a:hover:after {
 
   /*biggermiddle size */
   @media only screen and (max-width: 950px) {
-    .navigation {
+
+  /*  .navigation {
       margin: 10px;
     }
   }
