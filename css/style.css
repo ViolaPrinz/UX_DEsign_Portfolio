@@ -396,9 +396,9 @@ div.lines a:hover:before, div.lines a:hover:after {
     font-size: 1.1em;
   }
 
-  p {
+/*  p {
     text-align: left;
-  }
+  } */
 
   .column-2 {
     /* Modify 4-column to 2-columns */
