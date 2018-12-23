@@ -316,6 +316,10 @@ div.lines a:hover:before, div.lines a:hover:after {
   width: 100%;
 }
 
+.project-details {
+  display: none;
+}
+
 /*Animation CSS*/
 @keyframes color-change {
   0% {
